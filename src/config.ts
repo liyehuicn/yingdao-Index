@@ -1,39 +1,30 @@
 /** Website 分类配置 */
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
-    title: "示例分类1",
+    title: "晨风追剧",
     sites: [
       {
-        title: "主标题",
-        url: "http://www.your-web-page.com/",
+        title: "备用地址1",
+        url: "https://fefz.win/",
         icon: "",
         color: "#0171CD",
       },
       {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
+        title: "备用地址2",
+        description: "",
+        url: "https://app.ncnm.date/",
         icon: "",
       },
       {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
+        title: "备用地址3",
+        description: "",
+        url: "http://www.liyehui.top/",
         icon: "",
       },
     ],
   },
   {
-    title: "示例分类2",
-  },
-  {
-    title: "示例分类3",
-  },
-  {
-    title: "示例分类4",
-  },
-  {
-    title: "示例分类5",
+    title: "短剧分享",
   },
   {
     title: "友情链接",
@@ -55,23 +46,19 @@ const GLOBAL_CONFIG = {
   /**
    * 博客名称
    */
-  BLOG_NAME: "EsunR-Blog",
+  BLOG_NAME: "晨风追剧",
   /**
    * 个人博客链接
    */
-  BLOG_URL: "https://blog.esunr.xyz",
+  BLOG_URL: "https://blog.fefz.win",
   /**
    * 指定中心 LOGO 图片地址
    */
-  LOGO_URL: null,
-  /**
-   * 个人 Github 链接
-   */
-  GITHUB_URL: "https://github.com/EsunR",
+  LOGO_URL: null， 
   /**
    * 背景图片地址
    */
-  BACKGROUND_IMG_URL: "https://api.dujin.org/bing/1920.php",
+  BACKGROUND_IMG_URL: "https://cdn.liyehui.cn/img5.jpg",
   /**
    * ICP 备案号，留空不显示
    */
